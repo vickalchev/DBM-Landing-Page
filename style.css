@@ -4,11 +4,11 @@
 
 
 .top-menu {
-    display: inline-flex;
-    width: 75vw;
-    margin: 60px auto 15px 10%;
+    
+    width: 85vw;
+    margin: 50px auto 15px 10%;
     padding: 1%; 
-    overflow: hidden;
+    
     
     }
 
@@ -19,7 +19,8 @@
     border-color: #25A4AD;
     position: absolute;
     transform: rotate(60deg);
-    left: -120px;
+    left: -130px;
+    top: -10px;
     overflow: hidden;
     
 }
@@ -30,13 +31,14 @@
     background-color: #FFC229;
     border-radius: 50%;
     position: absolute;
+    top: -20px;
     transform: rotate(60deg);
     right: -30px;
-    top: -20px;
     overflow: hidden;
 }
 
 .top-menu li {
+    display: inline-block;
     margin: 5px 3%;
     text-align: center;
     padding: 10px;
@@ -53,7 +55,7 @@
     color: #25A4AD;
     font-weight: 600;
     font-size: 1rem;
-    margin-left: 40%;
+    margin-left: 35%;
     border: solid 1.5px;
     border-color: #25A4AD;
     border-radius: 5px;
