@@ -30,9 +30,8 @@
     background-color: #FFC229;
     border-radius: 50%;
     position: absolute;
-    top: -20px;
-    transform: rotate(60deg);
-    right: -30px;
+    top: -30px;
+    right: 20px;
     overflow: hidden;
 }
 
@@ -55,8 +54,7 @@
     font-weight: 600;
     font-size: 1rem;
     margin-left: 55%;
-    border: solid 1.5px;
-    border-color: #25A4AD;
+    border: solid 1.5px #25A4AD;
     border-radius: 5px;
     background-color: transparent;
     padding: 10px;
@@ -72,35 +70,165 @@
 .header-container {
     width: 85vw;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    margin: 20px auto 15px auto
+    /* this needs to get adjusted */
+    margin: 50px auto 15px auto ; 
     
     
     
 }
 
 .header-cta {
-   width: 50%;
-   margin: auto 10px;
-   border: solid 1px blue;
-   
+   width: 35%;
+   padding: 20px;
 }
 
 #digital-business {
-    font-size: 2rem;
+    font-size: 5rem;
+    font-weight: 200;
+    line-height: 1.2;
+    margin-bottom: 2%;
 }
+
+#header-management {
+    color: #25A4AD;
+    font-weight: 600;
+    padding: 1px;
+}
+
+.paragraph {
+    font-weight: 300;
+    line-height: 1.5;
+    padding: 1px;
+    margin-bottom: 3%;
+}
+
+.header-btn-get-started {
+    color: #fff;
+    background-color: #25A4AD;
+    border: 0px;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.header-btn-get-started:hover {
+    color: #25A4AD;
+    background-color: transparent;
+    border: solid 1.5px #25A4AD;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 10px 10px 0px 0px;
+    cursor: pointer;
+
+}
+
+
+
+.header-btn-explore {
+    color: #25A4AD;
+    font-weight: 500;
+    font-size: 1rem;
+    border: solid 1.5px #25A4AD;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px;
+    
+
+}
+
+.header-btn-explore:hover {
+    color: #ffff;
+    background-color: #25A4AD;
+    cursor: pointer;
+
+}
+
 
 .header-image {
     width: 50%;
-    height: 100px;
-    border: solid 1px blue;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
     
+    /* height: 100px; */
+    /* border: solid 1px blue; */
 }
+
+
+    
 
 .image-backdrop {
+    height: 50vh;
+    width: 20vw;
+    background-color: #D7FCFF;
+    border-radius: 100% 100% 0% 0%;
+    margin-left: 25%;
+    position: absolute;
+    left: 31%;
+    
+    overflow: hidden;
     
 }
 
+.image-backdrop-outline {
+    height: 50vh;
+    width: 20vw;
+    background-color: transparent;
+    border: solid 1px #25A4AD;
+    border-radius: 100% 100% 0% 0%;
+    margin-left: 25%;
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    
+
+}
+
+#tiny-blue-square-1 {
+
+    height: 30px;
+    width: 30px;
+    background-color: #D7FCFF;
+    position: absolute;
+    left:52%;
+    bottom: 45%;
+
+}
+
+#tiny-blue-square-2 {
+
+    height: 30px;
+    width: 30px;
+    background-color: #D7FCFF;
+    position: absolute;
+    left: 55%;
+    bottom: 41%;
+
+}
+
+#tiny-orange-droplets {
+    height: 30px;
+    width: 30px;
+    border-radius: 0% 100% 100% 100%;
+    background-color: #FFC229;
+    position: absolute;
+    left: 45%;
+    bottom: 70%;
+}
+
+#zig-zag-line {
+    position: absolute;
+    left: 64%;
+    top: 45%
+}
 
 
