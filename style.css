@@ -2,11 +2,17 @@
     font-family: 'Montserrat',sans-serif;
 }
 
-.top-menu {
+.top-nav-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .top-menu {
     
     width: 85vw;
     margin: 50px auto 15px auto;
-    padding: 1%; 
+    padding: 1%;  */
     
     
     }
@@ -36,7 +42,7 @@
 }
 
 .top-menu li {
-    display: inline-block;
+    display: inline;
     margin: 5px 1%;
     text-align: center;
     padding: 10px;
