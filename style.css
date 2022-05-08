@@ -1,7 +1,9 @@
+
+/* Global styles defined below👇🏼*/
 *{
     font-family: 'Montserrat',sans-serif;
 }
-
+/* Styles for the navigation area 👇🏼 */
 .top-nav-menu {
     display: flex;
     justify-content: space-around;
@@ -72,6 +74,7 @@
     cursor: pointer;
 }
 
+/* Styles for header 👇🏼 */
 .header-container {
     width: 85vw;
     display: flex;
@@ -86,7 +89,7 @@
 
 .header-cta {
    width: 45%;
-   padding: 20px;
+   padding: 0px 20px;
    overflow: visible;
    
 }
@@ -107,10 +110,16 @@
 }
 
 .paragraph {
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 1.4em;
     line-height: 1.5;
     padding: 1px;
     margin-bottom: 3%;
+}
+
+#product-emphasis {
+    color:#25A4AD;
+    font-weight:600;
 }
 
 .header-btn-get-started {
@@ -157,16 +166,12 @@
 
 .header-image {
     width: 50%;
-    padding: 20px;
+    padding: 0px 20px;
     display: flex;
     justify-content: center;
-    
-    /* height: 100px; */
-    /* border: solid 1px blue; */
 }
 
-
-    
+   
 
 .image-backdrop {
     height: 50vh;
@@ -176,6 +181,7 @@
     margin-left: 25%;
     position: absolute;
     left: 31%;
+    top: 28.2%;
     
     overflow: hidden;
     
@@ -187,9 +193,11 @@
     background-color: transparent;
     border: solid 1px #25A4AD;
     border-radius: 100% 100% 0% 0%;
-    margin-left: 25%;
+    margin-left: 1%;
+    
     z-index: 1;
-    position: relative;
+    position: absolute;
+    top:28.2%;
     overflow: hidden;
     
 
@@ -231,6 +239,21 @@
     position: absolute;
     left: 64%;
     top: 45%
+}
+
+/* Styles for the section with client logos */
+
+.client-logos {
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+   
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
 }
 
 
